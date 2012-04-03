@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>International Spectrum</title>
+
+
+        <link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile-1.0.1.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+
+        <script type="text/javascript" src="jquery-mobile/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="jquery-mobile/jquery.mobile-1.0.1.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="search-page">
+            <div data-role="header" data-backbtn="false">
+                <h1>TweetGap</h1>
+            </div>
+            <div data-role="content">
+                <form action="tweets.html">
+                    <div data-role="fieldcontain" style="text-align:center">
+                        <input type="search" name="search" id="search" value=""  />
+                        
+                        <!-- We do not use these, but you can try extend TweetGap to use geolocation -->
+                      <button name="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</body>
+</html>
